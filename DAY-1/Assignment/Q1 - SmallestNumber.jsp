@@ -7,11 +7,11 @@
 </head>
 <body>
     <%
-    int num1, num2, num3, result, temp;
+    int num1, num2, num3, result, tem;
     num1 = 56;
     num2 = 45;
     num3 = 78;
-    temp = num1 < num2 ? num1:num2;
+    tem = num1 < num2 ? num1:num2;
     result = num3 < temp ? num3:temp;
     out.println("Smallest Number is: "+result);
     %>
