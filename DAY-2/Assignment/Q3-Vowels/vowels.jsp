@@ -8,6 +8,7 @@
 
     </style>
 <body>
+<p>3. Get a string from the user and display the count of vowels present in it.</p>
 <%
 String word=request.getParameter("string");
 int count=0;

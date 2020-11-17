@@ -8,7 +8,7 @@
 
     </style>
 <body>
-
+<p>4. Get a number from user and print the first 10 multiples of it.</p>
 <%
 int number=Integer.parseInt(request.getParameter("num"));
 out.println("Multiples of "+number+" are ");
